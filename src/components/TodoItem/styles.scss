@@ -1,0 +1,17 @@
+.todo-item{
+
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    margin: 2rem 0 2rem 0 ;
+    width: 100%;
+    justify-content: space-between;
+    
+    &__checked{
+        width: 40px;
+    }
+    &__delete{
+        width: 40px;
+    }
+}

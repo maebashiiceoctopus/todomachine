@@ -3,6 +3,7 @@ import {TodoCounter} from "./components/TodoCounter/TodoCounter";
 import {TodoSearch}  from "./components/TodoSearch/TodoSearch";
 import {TodoList} from "./components/TodoList/TodoList";
 import {TodoItem} from "./components/TodoItem/TodoItem";
+import  "./styles.scss";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
   
      <TodoList> 
         {todos.map(todo => 
-        <TodoItem text={todo.text} />
+        <TodoItem key={todo.text} text={todo.text} />
         )} 
     </TodoList> 
 

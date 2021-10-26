@@ -1,10 +1,11 @@
 import React from 'react';
+import './styles.scss';
 
 const TodoSearch = () => {
     return (
-        <div>
-            <input type="text" placeholder="Tarea..." />
-        </div>
+        <section className="todo-search__container">
+            <input className="todo-search__input" type="text" placeholder="Buscar en TODO" />
+        </section>
     );
 }
 

@@ -1,12 +1,13 @@
 import React from 'react';
+import "./styles.scss";
 
 const TodoList = (props) => {
     return (
-        <section>
-             <ul>
+     <>
+             <ul className="todo-list">
                 {props.children}
             </ul>
-        </section>
+        </>
        
     );
 }
